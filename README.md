@@ -42,4 +42,6 @@ devel/
 test/
 ```
 
-(TODO: complete instructions)
+## Corpus metadata
+
+(TODO)

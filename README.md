@@ -26,6 +26,8 @@ Each corpus repository in <http://github.com/openbiocorpora> should have the fol
 
 The `original-data/` directory should contain the unpacked, unmodified corpus data as found in the URLs listed in `SOURCE`. If there are more than one source URLs, there should be one subdirectory in `original-data/` for each. When appropriate, these subdirectories should be named consistently with other repositories, for example `train/` for training data, `devel/` for development/validation data, and `test/` for test data.
 
+Whenever possible, the URLs in `SOURCE` should point to the actual corpus data packages so that their download can be automated.
+
 **Example**: in the [`ncbi-disease`](http://github.com/openbiocorpora/ncbi-disease) repository, [`SOURCE`](http://github.com/openbiocorpora/ncbi-disease/blob/master/SOURCE) contains
 
 ```
